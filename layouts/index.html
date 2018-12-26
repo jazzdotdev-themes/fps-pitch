@@ -1,11 +1,11 @@
-{% extends "layouts/base-foundpatterns.html" %}
+{% extends "layouts/base.html" %}
 <!-- imports the component that the slider is goind to use -->
-{% import "templates/slider.html" as slider %}
+{% import "chunks/slider.html" as slider %}
 
 {% block content %}
   {{ super() }}       
   <!-- call to the slider currently not working -->
-  {# include 'foundpatterns-slide.html' #}
+  {% include 'chunks/slide.html' %}
   <h1>Found patterns theme</h1>
   {% include 'chunks/studio-home.html' %}
 
