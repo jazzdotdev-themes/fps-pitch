@@ -1,6 +1,6 @@
-name: "found-patterns-theme"
-parent: 
-  - "chat-launcher-theme"
-  - "slideshow_template_theme"
-  - "subscription-template-theme"  
-  - "studio-theme"
+name: found-patterns-theme
+parents:
+  - chat-launcher-theme  
+  - slideshow-template-theme  
+  - subscription-template-theme  
+  - studio-theme  

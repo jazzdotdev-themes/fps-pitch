@@ -1,19 +1,12 @@
-{^}
+{% extends "^/layouts/base.html" %}
 
 {% block head %}
   {{ super() }}
   
 {% endblock head %}
-  
-{% block style %}
-  {{ super() }}  
-  {% include 'headers/chat.html' %}
-  {% include 'headers/subscription.html' %}
 
-{% endblock style %}
 
 {% block content %}
   {{ super() }}
-  {% include 'templates/chat.html' %}
 
 {% endblock content %}
