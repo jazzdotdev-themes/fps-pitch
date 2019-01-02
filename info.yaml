@@ -1,6 +1,5 @@
 name: found-patterns-theme
 parents:
-  - chat-launcher-theme  
-  - slideshow-template-theme  
-  - subscription-template-theme  
-  - studio-theme  
+  - studio-theme #the parent theme goes first
+  - chat-launcher-theme  #sub themes go later and template only themes even later
+  
