@@ -1,14 +1,26 @@
 {% extends "layouts/base.html" %}
-<!-- imports the component that the slider is goind to use -->
-{# import "slideshow_template_theme/chunks/slider.html" as slider #}
+
+<!-- imports the template that the slider is goind to use in order to render -->
+{% import "slideshow-template-theme/templates/slider.html" as slider %}
 
 {% block content %}
-  {{ super() }}       
+
+  {{ super() }}     
+    
+
+
   <!-- call to the slider currently not working -->
-  {# include "chunks/slide.html" #}
+  {# include "chunks/slides.html" #}
   
-  <h1>Found patterns theme</h1>
+
+  <p>This comes from the found-patterns-theme</p>
+  <h1>{{SITENAME}}</h1>
   <!-- include "/chunks/studio-home.html" -->
   {% include "chunks/studio-home.html" %}
+
+
+  <!-- static example of the template -->
+  {# include "chunks/subscription-example.html" #}
+  
   
 {% endblock content %}
