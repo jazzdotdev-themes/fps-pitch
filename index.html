@@ -1,7 +1,7 @@
 {% extends "layouts/base.html" %}
 
 <!-- imports the template that the slider is goind to use in order to render -->
-{% import "slideshow-template-theme/templates/slider.html" as slider %}
+{% import "slideshow-template-theme/chunks/slider.html" as slider %}
 
 {% block content %}
 
@@ -12,6 +12,9 @@
   <!-- call to the slider currently not working -->
   {# include "chunks/slides.html" #}
   
+  <div slide_display>
+    {{ slider::slider( values = slides ) }}
+  </div>
 
   <p>This comes from the found-patterns-theme</p>
   <h1>{{SITENAME}}</h1>
@@ -20,6 +23,8 @@
 
 
   <!-- static example of the template -->
+  {# include "chunks/subscription-example.html" #}
+
   {# include "chunks/subscription-example.html" #}
   
   
