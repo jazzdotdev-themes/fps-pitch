@@ -1,14 +1,16 @@
 {% extends "layouts/base.html" %}
 
 <!-- imports the template that the slider is goind to use in order to render -->
-{% import "slideshow-template-theme/chunks/slider.html" as slider %}
+{# import "slideshow-template-theme/chunks/slider.html" as slider #}
 
 {% block content %}
 
   {{ super() }}     
     
   <!-- call to the slider currently not working -->
-  {# include "chunks/slides.html" #}
+  {#slides#}
+  
+  {% include "chunks/slides.html" %}
 
   <p>This comes from the found-patterns-theme</p>
   <h1>{{SITENAME}}</h1>
