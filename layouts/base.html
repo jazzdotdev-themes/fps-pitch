@@ -2,8 +2,14 @@
 
 {% block head %}
   {{ super() }}
+  {% include "headers/styles-slideshow.html" %}
   
 {% endblock head %}
+
+{% block navigation %}
+  {% include "chunks/nav.html" %}
+
+{% endblock navigation %}
 
 {% block style %}
   {{ super() }}  

@@ -1,19 +1,15 @@
 {% extends "layouts/base.html" %}
 
-<!-- imports the template that the slider is goind to use in order to render -->
 {% block content %}
 
   {{ super() }}     
     
-  <!-- call to the slider currently not working -->
+  <!-- call to the slider -->
   
   {% include "chunks/slides.html" %}
   
-  <!-- include "/chunks/studio-home.html" -->
-  {% include "chunks/studio-home.html" %}
 
-
-  <!-- static example of the template -->
+  <!-- static example of the subscription template -->
   {# include "chunks/subscription-example.html" #}
   
 {% endblock content %}
