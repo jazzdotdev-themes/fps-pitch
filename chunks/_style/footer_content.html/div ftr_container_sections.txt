@@ -1,0 +1,7 @@
+flex
+flex-wrap
+w-full
+text-grey
+px-4
+py-4
+justify-center

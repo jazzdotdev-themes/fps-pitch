@@ -18,6 +18,8 @@
   <!-- chat styles implementation -->  
   {% include "headers/chat.html" %}
 
+  {% include "headers/found_ptrns_styles.html" %}
+
 {% endblock style %}
 
 {% block content %}
@@ -25,3 +27,11 @@
   {% include "chunks/chat.html" %}
 
 {% endblock content %}
+
+{% block footer %}
+
+  {% include "chunks/footer_content.html" %}
+
+  {{ super() }}
+
+{% endblock footer %} 
