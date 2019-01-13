@@ -1,0 +1,2 @@
+mr-3
+flex-no-shrink

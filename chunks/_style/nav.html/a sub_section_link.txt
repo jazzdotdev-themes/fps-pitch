@@ -1,6 +1,6 @@
-inline-block
 no-underline
 hover:text-grey-lighter
-py-2
+flex-grow
+justify-start
 px-4
-nav_link
+py-2
