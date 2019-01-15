@@ -2458,7 +2458,8 @@
     .found_nav .link_container::-webkit-scrollbar-thumb:hover {
       background: #a09070; }
   .found_nav .nav_link {
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 8px 0px;
+    margin-bottom: 2px;
     transition: border-bottom 0.5s;
     border-bottom: 4px solid #111111;
     padding-left: 15px;

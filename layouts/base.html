@@ -22,7 +22,14 @@
 
 {% endblock style %}
 
+{% block event_input %}
+  <input hidden_input type="checkbox" id="page_scale">
+  {{ super() }}
+{% endblock event_input %}
+
+
 {% block content %}
+  
   {{ super() }}
   {% include "chunks/chat.html" %}
 
