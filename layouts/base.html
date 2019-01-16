@@ -18,15 +18,12 @@
   <!-- chat styles implementation -->  
   {% include "headers/chat.html" %}
 
-  {% include "headers/found_ptrns_styles.html" %}
+  <!-- side modal styles headers -->
+  {% include "headers/side_modal_styles.html" %}
+  
+  {% include "headers/found_patterns_styles.html" %}
 
 {% endblock style %}
-
-{% block event_input %}
-  <input hidden_input type="checkbox" id="page_scale">
-  {{ super() }}
-{% endblock event_input %}
-
 
 {% block content %}
   
