@@ -2427,6 +2427,21 @@
     animation: unset !important;
     -webkit-transition: none !important;
     transition: none !important; } }
+.found_nav_h {
+  height: 17vh; }
+
+@media (min-width: 576px) {
+  .found_nav_h {
+    height: 17vh; } }
+@media (min-width: 768px) {
+  .found_nav_h {
+    height: 17vh; } }
+@media (min-width: 992px) {
+  .found_nav_h {
+    height: 11vh; } }
+@media (min-width: 1200px) {
+  .found_nav_h {
+    height: 11vh; } }
 .found_nav {
   padding: 5px 0px 5px 0px;
   overflow: hidden; }
