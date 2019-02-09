@@ -3,9 +3,9 @@
 
 {% block event_input %}
   {{ super() }}
-  {% include "chunks/side_modal.html" %}
+  {% set modal_title = "Subscription Plans" %}
   
-  {# include "chunks/found_patterns_side_modal.html" #}
+  {% include "chunks/subscription_side_modal.html" %}
 
 {% endblock event_input %}
 
@@ -19,7 +19,5 @@
   
 
   <!-- static example of the subscription template -->
-  {% include "chunks/subscription.html" %}
-
   
 {% endblock content %}
