@@ -1,5 +1,0 @@
-px-2
-mt-0
-w-full
-found_nav
-found_nav_h

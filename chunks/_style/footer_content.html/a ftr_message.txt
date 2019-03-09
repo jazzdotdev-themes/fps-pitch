@@ -1,4 +1,0 @@
-text-sm
-text-grey-dark
-hover:underline
-no-underline

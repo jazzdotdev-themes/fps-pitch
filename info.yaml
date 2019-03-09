@@ -1,8 +1,5 @@
 name: found-patterns-theme
 parents:
   - studio-theme #the parent theme goes first
-  - chat-launcher-theme  #sub themes go later and template only themes even later
-  - subscription-menu    
   - slideshow-template-theme
-  - side-modal-theme 
   - base-theme  #even though studio-theme has base theme as parent , base theme must be added in order for this theme to access the templates that exists within base-theme  

@@ -1,5 +1,0 @@
-text-base
-font-light
-text-grey-dark
-hover:underline
-no-underline

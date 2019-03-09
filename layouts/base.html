@@ -7,15 +7,11 @@
 {% endblock head %}
 
 {% block navigation %}
-  {% include "chunks/nav.html" %}
 
 {% endblock navigation %}
 
 {% block style %}
   {{ super() }}  
-  
-  <!-- chat styles implementation -->  
-  {% include "headers/chat.html" %}
 
   {% include "headers/found_patterns_styles.html" %}
 
@@ -24,14 +20,11 @@
 {% block content %}
   
   {{ super() }}
-  {% include "chunks/chat.html" %}
 
 {% endblock content %}
 
 {% block footer %}
 
-  {% include "chunks/footer_content.html" %}
-
   {{ super() }}
 
-{% endblock footer %} 
+{% endblock footer %}
